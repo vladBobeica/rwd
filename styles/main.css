@@ -1,0 +1,172 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  padding: 20px;
+}
+
+.nav-link:hover {
+  color: #18aaff;
+}
+
+.jumbotron {
+  background-image: url("https://images.unsplash.com/photo-1549057446-9f5c6ac91a04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1491&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0;
+  color: #ffffff;
+  padding: 200px 20px;
+  text-align: center;
+}
+
+.jumbotron > .lead {
+  max-width: 600px;
+  width: 100%;
+}
+
+.jumbotron > .btn-primary {
+  margin-bottom: 35px;
+}
+
+.jumbotron > .btn-primary + p {
+  max-width: 450px;
+  text-align: center;
+  width: 100%;
+}
+
+.carousel-item {
+  height: 750px;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Calistoga", serif;
+}
+
+.slider-container {
+  padding-top: 25px;
+}
+
+.slider-container > p {
+  margin: 0 auto;
+  max-width: 650px;
+  padding: 20px 0 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.carousel-read-more {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.carousel-read-more > span {
+  display: inline-flex;
+}
+
+.container > .card-group {
+  padding-top: 75px;
+}
+
+.card-body .btn-primary {
+  margin-top: auto;
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0;
+}
+
+.footer__nav-section {
+  align-items: center;
+  display: flex;
+}
+
+.footer__nav-menu {
+  align-items: center;
+  display: flex;
+  list-style: none;
+  margin: 0 !important;
+}
+
+.footer__nav-link {
+  margin: 0 10px;
+}
+
+.jumbotron-exam-type {
+  background-image: url("https://images.unsplash.com/photo-1511376979163-f804dff7ad7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80");
+}
+
+.jumbotron-exam-written {
+  background-image: url("https://images.unsplash.com/photo-1522881451255-f59ad836fdfb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1438&q=80");
+}
+
+.jumbotron-exam-oral {
+  background-image: url("https://images.unsplash.com/photo-1496902526517-c0f2cb8fdb6a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=1050&q=80");
+}
+
+.jumbotron-rules {
+  background-image: url("https://images.unsplash.com/photo-1505547828843-176834e42154?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+}
+
+.jumbotron-exam-written .container,
+.jumbotron-exam-oral .container {
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 991.98px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer__logo-section {
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .footer__nav-menu {
+    flex-direction: column;
+    padding-left: 0;
+  }
+
+  .footer__nav-link {
+    display: inline-flex;
+    margin-bottom: 15px;
+  }
+}
+
+.exam-types-read-buttons {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.exam-types-read-buttons > .carousel-read-more {
+  margin: 0 20px;
+}
+
+.container > .card {
+  margin-bottom: 25px;
+}
