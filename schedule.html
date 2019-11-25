@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -23,14 +22,13 @@
     />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../styles/main.css" />
-
-    <title>Examable</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Schedule</title>
   </head>
   <body>
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="../index.html"
+        <a class="navbar-brand" href="./index.html"
           ><svg
             width="163"
             height="38"
@@ -125,212 +123,84 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="#"
-                >Exam types <span class="sr-only">(current)</span></a
+              <a class="nav-link" href="./exam-types.html">Exam types </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./rules-and-regulations.html"
+                >Rules and regulations
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./advice-center.html">Advice center</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./schedule.html"
+                >Schedule <span class="sr-only">(current)</span></a
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../rules-and-regulations.html">Rules and regulations</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../advice-center.html">Advice center</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../schedule.html">Schedule</a>
             </li>
           </ul>
           <a href="#">Contact us</a>
         </div>
       </nav>
 
-      <div class="jumbotron jumbotron-fluid jumbotron-exam-oral">
-        <div class="container">
-          <h3 class="display-4">Oral exam</h3>
-          <p class="lead">
-            Different examination types are applied in the various programmes.
-            The examination types are described in general in the following
-            section. For more specific information, please consult the curricula
-            and semester information.
-          </p>
-        </div>
-      </div>
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Exams</th>
+            <th scope="col">Course name</th>
+            <th scope="col">ECTS</th>
+            <th scope="col">Educator</th>
+            <th scope="col">Semester</th>
+            <th scope="col">Room</th>
+            <th scope="col">Date</th>
+            <th scope="col">Time</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>IT-SDJ1</td>
+            <td>10</td>
+            <td>Micheal Viuff</td>
+            <td>1.Sem</td>
+            <td>E.304</td>
+            <td>06/01/2020</td>
+            <td>09:15</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>IT-MSE1</td>
+            <td>5</td>
+            <td>Richard Brooks</td>
+            <td>1.Sem</td>
+            <td>E.206</td>
+            <td>13/01/2020</td>
+            <td>10:15</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>IT-SEP1</td>
+            <td>5</td>
+            <td>Michael Viuff & Astrid Hanghøj</td>
+            <td>1.Sem</td>
+            <td>E.307</td>
+            <td>18/01/2020</td>
+            <td>08:30</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>IT-RWD1</td>
+            <td>5</td>
+            <td>Nicolai Sand</td>
+            <td>1.Sem</td>
+            <td>E.205</td>
+            <td>22/01/2020</td>
+            <td>08:15</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-
-    <div class="container">
-      <div class="accordion" id="accordionExample">
-        <div class="card">
-          <div class="card-header" id="headingOne">
-            <p class="mb-0">
-              <button
-                class="btn btn-link"
-                type="button"
-                data-toggle="collapse"
-                data-target="#collapseOne"
-                aria-expanded="true"
-                aria-controls="collapseOne"
-              >
-                TIME AND PLACE
-              </button>
-            </p>
-          </div>
-
-          <div
-            id="collapseOne"
-            class="collapse show"
-            aria-labelledby="headingOne"
-            data-parent="#accordionExample"
-          >
-            <div class="card-body">
-              <p>Time and exam room will appear from the exam plan posted on Studynet by the Student Administration.</p>
-              <p>
-                Show up 15 minutes before so that you can fill the spot if a fellow student is absent, thereby securing that the exam may be conducted without breaks. If you are late you can only participate if the lecturer and external examiner allow you to participate.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <p class="mb-0">
-              <button
-                class="btn btn-link collapsed"
-                type="button"
-                data-toggle="collapse"
-                data-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
-              CONDUCTING EXAMS
-              </button>
-            </p>
-          </div>
-          <div
-            id="collapseTwo"
-            class="collapse"
-            aria-labelledby="headingTwo"
-            data-parent="#accordionExample"
-          >
-            <div class="card-body">
-              <p>
-                    Oral exams are public.
-              </p>
-              <p>
-                    The number of exam questions is proportional to the number of students and the questions cover the syllabus to a reasonable extent.
-              </p>
-              <p>
-                    When the test starts all questions must be laid out and at no time during the test can less than 3 questions be available to choose from. You draw a question, yourself.
-              </p>
-              <p>
-                    The lecturer will examine you. The external examiner can only ask clarifying questions. Under normal circumstances the lecturer is not allowed to stop the examination without consent from the external examiner.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <p class="mb-0">
-              <button
-                class="btn btn-link collapsed"
-                type="button"
-                data-toggle="collapse"
-                data-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
-                PAPER
-              </button>
-            </p>
-          </div>
-          <div
-            id="collapseThree"
-            class="collapse"
-            aria-labelledby="headingThree"
-            data-parent="#accordionExample"
-          >
-            <div class="card-body">
-              <p>
-                All necessary paper will be handed out.
-              </p>
-              <p>
-                Contact the invigilator by raising your hand if you need more
-                paper.
-              </p>
-              <p>
-                Remember to write your name, student number, date, page numbers
-                and course on the cover including all sheets of the answer –
-                both handwritten and printed answers.
-              </p>
-              <p>
-                You are not allowed to use red writing on your exam paper. Use
-                pen and not markers on flimsy paper.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-                <div class="card-header" id="headingThree">
-                  <p class="mb-0">
-                    <button
-                      class="btn btn-link collapsed"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapseFour"
-                      aria-expanded="false"
-                      aria-controls="collapseFour"
-                    >
-                    HANDING IN
-                    </button>
-                  </p>
-                </div>
-                <div
-                  id="collapseFour"
-                  class="collapse"
-                  aria-labelledby="collapseFour"
-                  data-parent="#accordionExample"
-                >
-                  <div class="card-body">
-                    <p>
-                    Contact the invigilator if you want to hand in before the end of the test time.
-                    </p>
-                    <p>
-                    You are not allowed to hand in during the last 30 minutes of the exam (cf. behavior).
-                    </p>
-                    <p>
-                    Remain seated until the invigilator has controlled all material. Sign the last page before handing in. Also hand in both exam assignment and drafts.
-                    </p>
-                    <p>
-                    When handing in after the test has ended everyone must remain seated without talking until the invigilator has collected all answers.
-                    </p>
-                    <p>You are responsible for handing in everything in the relevant covers or in WISEflow.</p>
-                  </div>
-                </div>
-              </div>
-      </div>
-    </div>
-
-      <div class="exam-types-read-buttons">
-        <a href="./written-exam.html" class="carousel-read-more"
-          >Written exam
-          <span
-            ><svg
-              viewBox="0 0 24 24"
-              width="20"
-              height="20"
-              stroke="currentColor"
-              stroke-width="2"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="css-i6dzq1"
-            >
-              <polyline points="9 18 15 12 9 6"></polyline></svg></span
-        ></a>
-      </div>
-    </div>
-
-    <div class="container">
-      <hr />
-    </div>
-
     <div class="container">
       <footer class="footer">
         <div class="footer__logo-section">
@@ -418,16 +288,22 @@
         <div class="footer__nav-section">
           <ul class="footer__nav-menu">
             <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Exam types</a>
+              <a href="exam-types.html" class="footer__nav-link">Exam types</a>
             </li>
             <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Rules and regulations</a>
+              <a href="rules-and-regulations.html" class="footer__nav-link"
+                >Rules and regulations</a
+              >
             </li>
             <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Advice center</a>
+              <a href="advice-center.html" class="footer__nav-link"
+                >Advice center</a
+              >
             </li>
             <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Schedule</a>
+              <a href="schedule.htmlchedule.html" class="footer__nav-link"
+                >Schedule</a
+              >
             </li>
             <li class="footer__nav-item">
               <a href="#" class="footer__nav-link">Contact us</a>
